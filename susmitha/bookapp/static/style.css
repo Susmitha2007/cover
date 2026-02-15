@@ -1,0 +1,119 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f0f0f0;
+    font-family:'Georgia', serif;
+}
+
+.cover{
+    width:400px;
+    height:650px;
+    background:linear-gradient(135deg, #1e3c72, #2a5298);
+    border-radius:20px;
+    box-shadow:0 15px 30px rgba(0,0,0,0.4);
+    padding:35px 30px;
+    color:white;
+    text-align:center;
+    position:relative;
+}
+
+.title{
+    font-size:32px;
+    font-weight:bold;
+    background:rgba(255,255,255,0.95);
+    color:#000;
+    padding:16px;
+    border-radius:12px;
+}
+
+.subtitle{
+    font-size:16px;
+    font-style:italic;
+    background:rgba(255,255,255,0.85);
+    color:#000;
+    padding:10px;
+    border-radius:8px;
+    margin:18px auto 10px;
+    width:90%;
+}
+
+.role{
+    font-size:14px;
+    margin-top:6px;
+    opacity:0.95;
+}
+
+.divider{
+    width:70%;
+    height:2px;
+    background:rgba(255,255,255,0.4);
+    margin:16px auto;
+}
+
+.icons{
+    font-size:34px;
+    margin:10px 0;
+}
+
+.icons span{
+    margin:0 8px;
+}
+
+.description-box{
+    position:absolute;
+    left:30px;
+    bottom:200px;
+    width:220px;
+    background:rgba(255,255,255,0.18);
+    padding:16px;
+    border-radius:14px;
+    text-align:left;
+}
+
+.description-box h4{
+    margin:0 0 8px;
+    font-size:15px;
+}
+
+.description-box p{
+    margin:0;
+    font-size:13px;
+    line-height:1.5;
+}
+
+.photo{
+    position:absolute;
+    right:35px;
+    bottom:130px;
+    width:120px;
+    height:140px;
+    object-fit:cover;
+    border-radius:12px;
+    border:3px solid white;
+    box-shadow:0 6px 15px rgba(0,0,0,0.35);
+}
+
+.author{
+    position:absolute;
+    bottom:70px;
+    left:30px;
+    background:rgba(255,255,255,0.9);
+    color:#000;
+    padding:8px 14px;
+    border-radius:6px;
+    font-style:italic;
+    font-size:14px;
+}
+
+.footer{
+    position:absolute;
+    bottom:25px;
+    width:100%;
+    text-align:center;
+    font-size:12px;
+    opacity:0.85;
+}
